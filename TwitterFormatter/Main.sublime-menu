@@ -1,0 +1,25 @@
+[
+    {
+    	"id" : "tools",
+    	"children":
+    	[
+        	{
+                "id" : "twitter_formatter",
+        		"caption" : "Twitter Formatter",
+        		"children" : 
+                    [
+                        {
+                            "id" : "twitter_formatter_run",
+                            "caption" : "Run Twitter Formatter",
+                            "command" : "twitter_formatter"
+                        },
+                        {
+                            "id" : "twitter_formatter_jump",
+                            "caption" : "Jump to next line",
+                            "command" : "twitter_formatter_jump"
+                        }
+                    ]
+        	}
+    	]
+    }
+]
